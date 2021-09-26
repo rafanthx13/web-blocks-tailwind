@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    ul {
+      list-style: disc;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container mx-auto mb-8 text-center text-6xl">
+    <h1>Web Block CLones Using Tailwind</h1>
+  </div>
+
+  <div class="grid grid-cols-3 gap-8 mx-8">
+
+    <!-- COL 1 -->
+    <div>
+      <h2>El-emento</h2>
+      <ul>
+        <li>Team</li>
+          <ul class='ml-4'>
+            <li> <a class="hover:text-blue-900 text-blue-600" href="./src/elmento/team/team-1.html">Team 1</a> </li>
+              <ul class='ml-4'>
+                Profile Image Circle; Divisor; 3 columns; Icons to Link
+              </ul>
+          </ul>
+      </ul>
+    </div>
+
+    <!-- COL 2 -->
+    <div class="flex flex-col">
+      <span>2</span>
+      <span>22</span>
+    </div>
+
+    <!-- COL 3 -->
+    <div class="flex flex-col">
+      <span>3</span>
+      <span>33</span>
+    </div>
+
+</body>
+
+</html>
